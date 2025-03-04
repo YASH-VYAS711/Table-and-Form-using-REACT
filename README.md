@@ -1,12 +1,53 @@
-# React + Vite
+🎓 Student Management App
+A React.js project that allows users to add, edit, and delete student details using a simple UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Add Student – Users can add new students with details like ID, name, branch, and email.
+✅ Edit Student – Users can edit existing student details. The form auto-fills when editing.
+✅ Delete Student – Users can remove students from the list.
+✅ Modal Form – Uses a dialog modal for adding and editing students.
+✅ Responsive UI – Styled with Tailwind CSS for a clean and modern look.
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+🔹 Frontend: React.js, Tailwind CSS
+🔹 State Management: React Hooks (useState, useRef)
+🔹 Component-Based UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Project Structure
+bash
+Copy
+Edit
+📦 student-management-app
+ ┣ 📂 src
+ ┃ ┣ 📂 components
+ ┃ ┃ ┣ 📜 StudentForm.jsx   # Form component for adding/editing students
+ ┃ ┣ 📜 App.jsx              # Main component (renders table & form)
+ ┃ ┣ 📜 index.js             # Entry point of React app
+ ┣ 📜 package.json           # Dependencies & scripts
+ ┣ 📜 tailwind.config.js      # Tailwind CSS configuration
+ ┣ 📜 README.md              # Project documentation
+⚡ Installation & Setup
+1️⃣ Clone the repository
 
-## Expanding the ESLint configuration
+bash
+Copy
+Edit
+git clone https://github.com/your-username/student-management-app.git
+cd student-management-app
+2️⃣ Install dependencies
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+Copy
+Edit
+npm install
+3️⃣ Run the project
+
+bash
+Copy
+Edit
+npm run dev
+Then, open http://localhost:5173/ in your browser.
+
+📜 License
+This project is licensed under the MIT License.
+
